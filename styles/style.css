@@ -28,6 +28,122 @@
 }
 
 .btn-primary {
-    border-radius: 4px;
+    border: 10px solid #E55473;
     background: #E55473;
+    border-radius: 5px;
+    padding: 5px;
+
+
+}
+
+.Featured-container {
+    text-align: center;
+    border: 5px;
+    background: #FFF;
+}
+
+.Featured-description {
+
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+}
+
+.Flower-tree-container {
+
+    display: flex;
+}
+
+.Flower-tree {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    margin: 5px;
+    border: 5px;
+    padding: 5px;
+    gap: 0px;
+}
+
+.Flower-title {
+    text-align: center;
+    padding: 10px;
+}
+
+.Group-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+
+}
+
+.flower-Group {
+    margin: 60px;
+    border: 10px;
+    padding: 10px;
+    gap: 20px;
+}
+
+.sale-container {
+    display: flex;
+    justify-content: space-around;
+    height: 500px;
+    border: 2px;
+    align-items: center;
+    border: 2px solid gray;
+    padding: 10px;
+    background: rgba(229, 84, 115, 0.10);
+
+}
+
+.sale-img {
+    margin-right: 20px;
+
+}
+
+.sale-detail {
+    text-align: center;
+}
+
+.sale-title {
+
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+
+}
+
+.sale-title-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+.text-of {
+    color: #E55473;
+    font-size: 40px;
+    font-weight: 800px;
+
+}
+
+.Rectangle-Flower-container {
+    display: flex;
+    margin: 10px ;
+    border: 5px ;
+    padding: 5px 10px;
+    gap:10px;
+}
+
+.Instagram-title {
+    text-align: center;
+}
+
+.Instagram-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+
 }

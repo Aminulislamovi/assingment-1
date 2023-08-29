@@ -5,14 +5,15 @@
     border: 2px;
     align-items: center;
     border: 2px solid gray;
-    padding: 10px;
+    padding: 10px 10px;
     background: rgba(229, 84, 115, 0.10);
 }
 
-.banner-header {
+.banner-text {
+    padding: 50px;
     color: #272727;
-    font-size: 20px;
-    font-weight: 700px;
+    font-size: 25px;
+    font-weight: 40px;
 }
 
 .banner-description {
@@ -20,11 +21,11 @@
     font-size: 18px;
     font-weight: 400;
 
-
 }
-
 .banner-img {
-    width: 400px;
+    width: 300px;
+    padding: 30px;
+    height: 400px;
 }
 
 .btn-primary {
@@ -41,25 +42,23 @@
     border: 5px;
     background: #FFF;
 }
-
 .Featured-description {
-
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
 }
 
 .Flower-tree-container {
-
     display: flex;
+
 }
 
 .Flower-tree {
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
-    margin: 5px;
-    border: 5px;
+    margin: 60px;
+    border: 20px;
     padding: 5px;
-    gap: 0px;
+    gap: 80px;
 }
 
 .Flower-title {
@@ -92,11 +91,12 @@
     border: 2px solid gray;
     padding: 10px;
     background: rgba(229, 84, 115, 0.10);
-
+    margin-top: 30px;
 }
 
 .sale-img {
     margin-right: 20px;
+
 
 }
 
@@ -121,29 +121,72 @@
 
 }
 
-.text-of {
+.text-of,
+.text-Flower {
     color: #E55473;
     font-size: 40px;
     font-weight: 800px;
 
 }
 
+.text-Shop {
+    color: #FFF;
+    font-size: 45px;
+    font-weight: 800;
+}
+
+.text-description {
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+.text-rights {
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    font-weight: 400;
+}
+
 .Rectangle-Flower-container {
     display: flex;
-    margin: 10px ;
-    border: 5px ;
+    margin: 10px;
+    border: 5px;
     padding: 5px 10px;
-    gap:10px;
+    gap: 10px;
 }
 
 .Instagram-title {
     text-align: center;
 }
 
-.Instagram-description {
+.Instagram-description,
+.form-description {
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
     font-size: 18px;
     font-weight: 400;
 
+}
+
+.form-container {
+    background-image: url('../styles/Rectangle\ 9.png');
+    text-align: center;
+    height: 200px;
+    width: 100%;
+    padding: 70px;
+}
+
+.input-filed {
+    width: 500px;
+    height: 40px;
+}
+
+.FlowerShop-container {
+    margin-top: 30px;
+    background: #111010;
+    text-align: center;
+    height: 200px;
+    width: 100%;
+    padding: 70px;
 }

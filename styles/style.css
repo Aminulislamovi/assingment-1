@@ -1,0 +1,33 @@
+.banner-container {
+    display: flex;
+    justify-content: space-around;
+    height: 500px;
+    border: 2px;
+    align-items: center;
+    border: 2px solid gray;
+    padding: 10px;
+    background: rgba(229, 84, 115, 0.10);
+}
+
+.banner-header {
+    color: #272727;
+    font-size: 20px;
+    font-weight: 700px;
+}
+
+.banner-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+
+
+}
+
+.banner-img {
+    width: 400px;
+}
+
+.btn-primary {
+    border-radius: 4px;
+    background: #E55473;
+}

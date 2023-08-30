@@ -4,7 +4,6 @@
     height: 500px;
     border: 2px;
     align-items: center;
-    border: 2px solid gray;
     padding: 10px 10px;
     background: rgba(229, 84, 115, 0.10);
 }
@@ -48,38 +47,35 @@
 }
 
 .Flower-tree-container {
+    background: #FFF;
     display: flex;
-
+    
 }
-
 .Flower-tree {
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
-    margin: 60px;
+    margin: 70px;
     border: 20px;
     padding: 5px;
-    gap: 80px;
+    
 }
-
 .Flower-title {
     text-align: center;
     padding: 10px;
 }
-
 .Group-container {
     display: flex;
     justify-content: center;
-    margin-top: 30px;
+    margin: 60px;
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
-
+    /* gap: 20px; */
 }
-
 .flower-Group {
     margin: 60px;
     border: 10px;
     padding: 10px;
-    gap: 20px;
+    gap: 60px;
 }
 
 .sale-container {
@@ -96,7 +92,6 @@
 
 .sale-img {
     margin-right: 20px;
-
 
 }
 
@@ -153,7 +148,7 @@
     margin: 10px;
     border: 5px;
     padding: 5px 10px;
-    gap: 10px;
+    gap: 50px;
 }
 
 .Instagram-title {
@@ -175,6 +170,7 @@
     height: 200px;
     width: 100%;
     padding: 70px;
+    margin-top: 60px;
 }
 
 .input-filed {
@@ -183,10 +179,10 @@
 }
 
 .FlowerShop-container {
-    margin-top: 30px;
     background: #111010;
     text-align: center;
-    height: 200px;
+    /* height: 200px; */
     width: 100%;
     padding: 70px;
+    margin-top: 60px;
 }
